@@ -7,7 +7,7 @@ int SensorReading;        // the analog reading from the sensor
 int waitTime=3000;     //Amount of time in mS to wait in between temperature readings
 
 void setup(void) {
-  Serial.begin(9600);   // We'll send information via the Serial monitor
+  Serial.begin(115200);   // We'll send information via the Serial monitor
 }
  
  
